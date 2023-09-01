@@ -17,3 +17,6 @@ cargo update
 cargo build
 cargo run
 
+![imagen](https://github.com/erhnam/Rust_Embedded_MAX31865/assets/9365733/81256931-2165-41ef-8f13-fc184c126a57)
+
+![imagen](https://github.com/erhnam/Rust_Embedded_MAX31865/assets/9365733/4f239804-cb13-417a-acf7-1776ed5b1f15)
