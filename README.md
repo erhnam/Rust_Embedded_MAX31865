@@ -1,6 +1,12 @@
 # Rust_Embedded_MAX31865
 Board STM32F401RET6 reading temperature using sensor MAX31865 with SPI1
 
+## Connection with 3-Wired
+
+![image1](https://github.com/erhnam/Rust_Embedded_MAX31865/assets/9365733/8b2555d1-f79a-41db-8998-8e51537ffeee)
+
+![image0](https://github.com/erhnam/Rust_Embedded_MAX31865/assets/9365733/893c91e8-5ed5-46af-8e08-c2008489cc5e)
+
 ## Install:
 ```sh
 sudo apt-get install gdb-multiarch openocd
