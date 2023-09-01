@@ -1,0 +1,20 @@
+[package]
+name = "emb-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.7.5"
+cortex-m-rt = "0.7.1"
+cortex-m-semihosting = "0.5.0"
+embedded-hal = "0.2.7"
+max31865 = "0.1.1"
+nb = "1.0.0"
+panic-halt = "0.2.0"
+#stm32f4xx-hal = "0.13.2"
+
+[dependencies.stm32f4xx-hal]
+version = "0.13.2"
+features = ["stm32f401"] # replace the model of your microcontroller here
