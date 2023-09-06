@@ -1,5 +1,5 @@
 # Rust_Embedded_MAX31865
-Board STM32F401RET6 reading temperature using sensor MAX31865 with SPI1
+Board STM32F401RET6 reading temperature using sensor MAX31865 with SPI1 and W5500 Ethernet controller in SPI2
 
 ## Connection with 3-Wired
 
