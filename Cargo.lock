@@ -88,6 +88,9 @@ dependencies = [
  "nb 1.1.0",
  "panic-halt",
  "stm32f4xx-hal",
+ "w5500-dhcp",
+ "w5500-hl",
+ "w5500-ll",
 ]
 
 [[package]]
@@ -148,6 +151,12 @@ name = "gcd"
 version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1d758ba1b47b00caf47f24925c0074ecb20d6dfcffe7f6d53395c0465674841a"
+
+[[package]]
+name = "log"
+version = "0.4.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b5e6163cb8c49088c2c36f57875e58ccd8c87c7427f7fbd50ea6710b2f3f2e8f"
 
 [[package]]
 name = "max31865"
@@ -320,4 +329,32 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ee8f19f9d74293faf70901bc20ad067dc1ad390d2cbf1e3f75f721ffee908b6"
 dependencies = [
  "vcell",
+]
+
+[[package]]
+name = "w5500-dhcp"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ba09356c5e46bfe49d93efaf8cd8d1ee4f355d39299fee287707f7d0dff9ebfc"
+dependencies = [
+ "log",
+ "w5500-hl",
+]
+
+[[package]]
+name = "w5500-hl"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4b90a4ae0d8e89d1b35b23cdf5bd7f481b1b7e7aebd0f9284bd00780d7a368d"
+dependencies = [
+ "w5500-ll",
+]
+
+[[package]]
+name = "w5500-ll"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "999c5f78c1d6dc441b9c475dcbcd8239ef1b91def57ce8943b3d2cfe62c79a19"
+dependencies = [
+ "embedded-hal 0.2.7",
 ]
